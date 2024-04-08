@@ -255,7 +255,6 @@ h3 {
   
   #comment-input:focus {
     outline: none;
-    border-color: #007bff;
   }
   
   #comment-form button {
@@ -265,7 +264,7 @@ h3 {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #00336a;
     color: #ffffff;
     transition: background-color 0.3s ease;
   }
