@@ -360,4 +360,29 @@ h3 {
     padding-left: 80px;
   }
     
+/* Medium desktop screens (1024px to 1440px) */
+@media screen and (min-width: 1024px) {
+  .pets-grid, .recipes-grid, .travel-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Adjusted to 3 columns for medium desktops */
+      gap: 20px;
+  }
+}
+
+/* Large desktop screens (1440px to 1920px) */
+@media screen and (min-width: 1440px) {
+  .pets-grid, .recipes-grid, .travel-grid {
+      grid-template-columns: repeat(4, 1fr); /* Adjusted to 4 columns for large desktops */
+      gap: 30px;
+  }
+}
+
+/* Extra large desktop screens (1920px and up) */
+@media screen and (min-width: 1920px) {
+  .pets-grid, .recipes-grid, .travel-grid {
+      grid-template-columns: repeat(5, 1fr); /* Adjusted to 5 columns for extra large desktops */
+      gap: 40px;
+  }
+}
+
  
