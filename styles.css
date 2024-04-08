@@ -282,7 +282,7 @@ h3 {
     padding: 15px;
     border-radius: 8px;
     margin-top: 15px;
-    border-left: 3px solid #007bff;
+    border-left: 3px solid #00264f;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
